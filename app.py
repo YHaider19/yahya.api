@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return jsonify({"message":"Yahya’s CI/CD is working"}"})
+    return jsonify({"message": "Hello from Yahya’s API V2!"}"})
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
